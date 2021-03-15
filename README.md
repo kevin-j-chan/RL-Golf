@@ -1,6 +1,14 @@
 # RL-Golf
 This project uses reinforcement learning to find the optimal stroke count for a game of golf. We run Q-Learning and Dyna-Q methods on a designed golf environment, exploring the states and actions with an e-greedy (*e* = 0.1) policy. By running these methods against each other on the same environment, we can see how quickly these methods converge to an optimal solution, and whether or not the model-based planning method is helpful in small, concrete environments. 
 
+## How to run
+Download the repository and ensure that the **random**, **numpy**, and **matplotlib** libraries are supported.
+### For Jupyter Notebook
+Navigate to the **src** directory and run all cells in the Algorithms notebook. Output shall be printed inside the notebook.
+### For Python
+Navigate to the **src_py** directory and run the Algorithms file. Output shall be written into the **output** directory.
+The outputs are written into individual text files because it allows us to more easily compare the outputs, using commands like **diff** in the terminal.
+
 ## Environment
 Our golf environment is composed in a 2D array for WIDTH * HEIGHT, where the states are programatically determined. Each state is assigned a possible value, ['O', 'R', 'G', 'H', 'P'] and each state has a distinctive property:
 * O is Out. Out cannot be reached, so running into this state will return the state to a previous one and end the action
@@ -24,14 +32,6 @@ For both methods, we are considering:
 
 For Dyna-Q, we also have:
 * n_planning_steps = 100, for purpose of testing, we have 100 planned steps.
-
-## How to run
-Download the repository and ensure that the **random**, **numpy**, and **matplotlib** libraries are supported.
-### For Jupyter Notebook
-Navigate to the **src** directory and run all cells in the Algorithms notebook. Output shall be printed inside the notebook.
-### For Python
-Navigate to the **src_py** directory and run the Algorithms file. Output shall be written into the **output** directory.
-The outputs are written into individual text files because it allows us to more easily compare the outputs, using commands like **diff** in the terminal.
 
 ## Examples
 Here are some examples of the converging state estimates - you will also see these as outputs in the Jupyter Notebook.
