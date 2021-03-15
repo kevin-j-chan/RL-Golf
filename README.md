@@ -31,7 +31,7 @@ For both methods, we are considering:
 * GAMMA = 1, which is because our task is not discounted
 * iterations = [1, 100, 1000, 2500, 5000, 10000, 25000, 50000], which we came across through trial and error of finding where the code often converges.
 
-For Dyna-Q, we also have:
+For Dyna-Q specifically, we also have:
 * n_planning_steps = 100, for purpose of testing, we have 100 planned steps.
 
 ## Examples
