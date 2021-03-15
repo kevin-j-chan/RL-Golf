@@ -29,6 +29,7 @@ For both methods, we are considering:
 * EPSILON = 0.1, which means there is a 10% chance to explore a random action
 * ALPHA = 0.1, which is our step-size parameter that influences the rate of learning
 * GAMMA = 1, which is because our task is not discounted
+* iterations = [1, 100, 1000, 2500, 5000, 10000, 25000, 50000], which we came across through trial and error of finding where the code often converges.
 
 For Dyna-Q, we also have:
 * n_planning_steps = 100, for purpose of testing, we have 100 planned steps.
@@ -44,6 +45,6 @@ Here is Q-Learning ran up against the environment, converging at 50,000 iteratio
 
 ![Figure 2: Q-Learning, fully converged at 50000 iterations](images/q_learning_25000_50000.PNG)
 
-Here is Dyna-Q ran up against the same environment, converging at 10,000 iterations with n_planning_steps = 100.
+Here is Dyna-Q ran up against the same environment, converging at 5,000 iterations with n_planning_steps = 100.
 
-![Figure 3: Dyna-Q, fully converged at 10000 iterations](images/dyna_q_10000.PNG)
+![Figure 3: Dyna-Q, fully converged at 5000 iterations](images/dyna_q_2500_5000.PNG)

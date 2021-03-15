@@ -14,7 +14,7 @@ GREEN = "\033[0;32m"
 BLACK  = "\033[0;0m"
 
 # testing
-iterations = [1, 100, 1000, 5000, 10000, 25000, 50000]
+iterations = [1, 100, 1000, 2500, 5000, 10000, 25000, 50000]
 
 # environment
 terrain = ['O', 'R', 'G', 'H', 'P']             # different types of terrain on the course. 
