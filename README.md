@@ -26,11 +26,12 @@ For Dyna-Q, we also have:
 * n_planning_steps = 100, for purpose of testing, we have 100 planned steps.
 
 ## How to run
-Download the repository and ensure that the *random*, *numpy*, and *matplotlib* libraries are supported.
+Download the repository and ensure that the **random**, **numpy**, and **matplotlib** libraries are supported.
 ### For Jupyter Notebook
-Navigate to the *src* directory and run all cells in the Algorithms notebook. Output shall be printed inside the notebook.
+Navigate to the **src** directory and run all cells in the Algorithms notebook. Output shall be printed inside the notebook.
 ### For Python
-Navigate to the *src_py* directory and run the Algorithms file. Output shall be written into the *output* directory.
+Navigate to the **src_py** directory and run the Algorithms file. Output shall be written into the **output** directory.
+The outputs are written into individual text files because it allows us to more easily compare the outputs, using commands like **diff** in the terminal.
 
 ## Examples
 Here are some examples of the converging state estimates - you will also see these as outputs in the Jupyter Notebook.
