@@ -19,3 +19,13 @@ Download the repository and ensure that the *random*, *numpy*, and *matplotlib* 
 Navigate to the *src* directory and run all cells in the Algorithms notebook. Output shall be printed inside the notebook.
 ### For Python
 Navigate to the *src_py* directory and run the Algorithms file. Output shall be written into the *output* directory.
+
+## Examples
+Here are some examples of the converging state estimates - you will also see these as outputs in the Jupyter Notebook.
+
+![Figure 1: Test Course](images/test_course.PNG)
+
+![Figure 2: Q Learning, fully converged at 50000 iterations](images/q_learning_25000_50000.PNG)
+
+
+![Figure 3: Dyna Q, fully converged at 10000 iterations](images/dyna_q_10000.PNG)
