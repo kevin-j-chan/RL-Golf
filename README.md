@@ -36,10 +36,13 @@ Navigate to the *src_py* directory and run the Algorithms file. Output shall be 
 Here are some examples of the converging state estimates - you will also see these as outputs in the Jupyter Notebook.
 
 This is a text visualization of our state map.
+
 ![Figure 1: Test Course](images/test_course.PNG)
 
 Here is Q-Learning ran up against the environment, converging at 50,000 iterations.
+
 ![Figure 2: Q-Learning, fully converged at 50000 iterations](images/q_learning_25000_50000.PNG)
 
 Here is Dyna-Q ran up against the same environment, converging at 10,000 iterations with n_planning_steps = 100.
+
 ![Figure 3: Dyna-Q, fully converged at 10000 iterations](images/dyna_q_10000.PNG)
