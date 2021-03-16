@@ -33,7 +33,7 @@ for it in iterations:
 
 tar_dir = "../output/"
 tar_name = "dyna_q"
-n_planning_steps = 100
+n_planning_steps = 40
 
 for it in iterations:
     f = open(tar_dir + tar_name + "_" + str(it) + ".txt", 'w')
