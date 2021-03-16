@@ -1,5 +1,5 @@
 # RL-Golf
-This project uses reinforcement learning to find the optimal stroke count for a game of golf. We run Q-Learning and Dyna-Q methods on a designed golf environment, exploring the states and actions with an e-greedy (*e* = 0.1) policy. By running these methods against each other on the same environment, we can see how quickly these methods converge to an optimal solution, and whether or not the model-based planning method is helpful in small, concrete environments. 
+This project uses reinforcement learning to find the optimal stroke count for a game of golf. We run Q-Learning and Dyna-Q methods on a designed golf environment, exploring the states and actions with an epsilon-greedy (*e* = 0.1) policy. By running these methods against each other on the same environment, we can see how quickly these methods converge to an optimal solution, and whether or not the model-based planning method is helpful in small, concrete environments. 
 
 ## How to run
 Download the repository and ensure that the **random**, **numpy**, **time**, and **matplotlib** libraries are supported.
